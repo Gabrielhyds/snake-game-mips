@@ -15,6 +15,27 @@ Ambiente: simulador **MARS 4.5** (Bitmap Display, Keyboard MMIO e Syscalls).
 Ele cobre os objetivos do próprio tema (matrizes, buffer duplo, otimização de laços) e ainda usa
 Bitmap Display, Keyboard MMIO e syscalls. Assim o projeto fica completo sem ser grande demais.
 
+## Telas
+
+> Imagens simuladas por um modelo em Python com a mesma grade, cores e regras do `.asm`.
+> No MARS, geração e população aparecem no console *Run I/O*, não na tela.
+
+| Canhão de Gosper (geração 0) | Canhão de Gosper (geração 120) |
+|---|---|
+| ![Canhão geração 0](prints/01_canhao_geracao0.png) | ![Canhão geração 120](prints/02_canhao_geracao120.png) |
+
+| Pulsar (oscilador, período 3) | R-pentomino (geração 200) |
+|---|---|
+| ![Pulsar](prints/03_pulsar.png) | ![R-pentomino](prints/04_rpentomino_geracao200.png) |
+
+| Aleatório (geração 0) | Aleatório (geração 80) |
+|---|---|
+| ![Aleatório geração 0](prints/05_aleatorio_geracao0.png) | ![Aleatório geração 80](prints/06_aleatorio_geracao80.png) |
+
+**Modo de edição** (pausado, cursor amarelo no centro):
+
+![Pausado com cursor](prints/07_pausado_cursor.png)
+
 ## Como executar
 
 1. Abra o `jogo_da_vida.asm` no MARS 4.5.
